@@ -1,0 +1,83 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .split {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    
+  }
+  
+  .left {
+    left: 0;
+    background-image: url('./assets/tara.jpg');
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .right {
+    right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .section:first-child {
+    border-top: none;
+  }
+  
+  .section:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+  }
+
+  .tara-text {
+    font-family: 'Cinzel Decorative', serif;
+    text-align: center;
+  }
+  
+  .tara-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  .tara-text p {
+    font-size: 1.2rem;
+  }
+  
+  .section-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #000;
+  }
+  

@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 50vw;
+    height: 15vh;
+    color: white;
+   
+}
+.text{
+    display: flex;
+    gap: 20px;
+}
