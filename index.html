@@ -1,0 +1,67 @@
+<html>
+<head>
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer"></div>
+    <div class="container">
+          <form >
+            <div class="q1">
+                <p>   <label for="ip1">Which Planet is known as the red planet?</label></p>
+             
+                <input type="text" id="ip1">
+            </div>
+            <div class="q2">
+                  <div>Select all gas giants</div> 
+                  <div id="q1ip1">
+                    <label for="check1">Jupiter</label>
+                    <input type="checkbox" id="check1">
+                  </div> 
+                  <div id="q1ip2">
+                    <label for="check2">Mars</label>
+                    <input type="checkbox" id="check2">
+                  </div>  
+                  <div id="q1ip3">
+                    <label for="check3">Saturn</label>
+                    <input type="checkbox" id="check3">
+                  </div> 
+                   <div id="q1ip4">
+                    <label for="check4">Mercury</label>
+                    <input type="checkbox" id="check4">
+                  </div> 
+            </div>
+            <div class="q3">
+                <p> <label for="ip3">How many planets in our solar system?</label></p>
+               
+                <input type="number" id="ip1">
+            </div>
+            <div class="q4">
+                <p>Which planet has rings?</p>
+               <select name="" id="">
+                <option selected disabled value="Which planets has rings?">Which planets has rings?</option>
+                <option value="Venus">Venus</option>
+                <option value="Earth">Earth</option>
+                <option value="Saturn">Saturn</option>
+                <option value="Mars">Mars</option>
+                </select>
+
+            </div>
+            <div class="q5">
+                <p><label for="txtarea">Write about your interests in space</label></p>
+                
+                <textarea name="" id="" placeholder="Write here"></textarea>
+            </div>
+            <div class="q6">
+                <p><label for="ip61">Rate your interest in space</label></p>
+                
+                <input type="range" min="1" max="10" value="5" oninput="val.innerText=this.value">
+                <div id="val">5</div>
+
+            </div>
+            
+
+         </form>
+    </div>
+</body>
+</html>
