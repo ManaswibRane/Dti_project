@@ -1,11 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+  
    
 }
-.container{
-    z-index: 999;
-}
+
 
 body{
     background-image: url("../assets/bgimg.avif");
@@ -18,10 +17,13 @@ body{
 }
 .outer{
        background-color: rgba(0, 0, 0, 0.484);
-       height: 100vh;
-       width: 100vw;
+      
+       position: absolute;
+       top: 0;
+       height: 100%;
+       width: 100%;
        display: flex;
-       align-items: center;
+      align-items: center;
        justify-content: center;
 }
 .quizele{
@@ -29,6 +31,39 @@ body{
 
 
 }
+/* .footer{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 50vw;
+    height: 15vh;
+    color: white;
+   
+}
+.text{
+    display: flex;
+    gap: 20px;
+}
+.header{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    top: 0;
+    width: 100vw;
+    height: 15vh;
+    margin-bottom: 2vh;
+    color: white;
+}
+#logo{
+    height: 100%;
+    object-fit: contain;
+}
+.text{
+    padding: 20px;
+    font-size: larger;
+} */
 .error{
     color: red;
 }
@@ -44,6 +79,7 @@ body{
 }
 div div{
     margin: 2vh;
+
 }
 button{
     color: white;
