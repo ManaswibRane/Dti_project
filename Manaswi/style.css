@@ -31,39 +31,7 @@ body{
 
 
 }
-/* .footer{
-    background-color: black;
-    height: 10vh;
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    width: 50vw;
-    height: 15vh;
-    color: white;
-   
-}
-.text{
-    display: flex;
-    gap: 20px;
-}
-.header{
-    background-color: black;
-    height: 5vh;
-    display: flex;
-    top: 0;
-    width: 100vw;
-    height: 15vh;
-    margin-bottom: 2vh;
-    color: white;
-}
-#logo{
-    height: 100%;
-    object-fit: contain;
-}
-.text{
-    padding: 20px;
-    font-size: larger;
-} */
+
 .error{
     color: red;
 }

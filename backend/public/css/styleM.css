@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+   
+}
+
+
+body{
+    background-image: url("/public/images/bgimg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.outer{
+       background-color: rgba(0, 0, 0, 0.484);
+      
+       position: absolute;
+       top: 0;
+       height: 100%;
+       width: 100%;
+       display: flex;
+      align-items: center;
+       justify-content: center;
+}
+.quizele{
+    margin: 2vh;
+
+
+}
+
+.error{
+    color: red;
+}
+.heading{
+    font-family: 'Bebas Neue';
+    font-size: 5vh;
+}
+#txt , #ip1 , #ip3{
+    padding: 10px;
+    border-radius: 100px;
+    height: 4vh;
+    width: 20vw;
+}
+div div{
+    margin: 2vh;
+
+}
+button{
+    color: white;
+    background-color: black;
+    padding:1vh;
+    border-radius: 10px;
+
+}
