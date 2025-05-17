@@ -1,0 +1,74 @@
+.flight-list{
+    position: relative;
+    }
+    .flight-list .container{
+        margin-top: 6rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    a{
+        text-decoration: none;
+    }
+    .container .flight-box{
+        width: 200px;
+        padding: 2rem 1.5rem 2rem;
+        text-align: center;
+        background-image: url(/public/Nimages/stars.png);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        color: #fff;
+        z-index: 2;
+        margin: 2rem .5rem;
+    }
+    
+    .flight-box img{
+        width: 120px;
+        margin: -4rem auto 0 auto;
+        animation: floatImg 4s ease-in-out infinite;
+        filter: drop-shadow(0 0.5rem #1797ff);
+        border-radius: 50%;
+    }
+    
+    .container .flight-box h2{
+        color: var(--hover-color);
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .flight-box p{
+        color: #dddcdc;
+        line-height: 1.5rem;
+        font-size: .9rem;
+    }
+    
+    body{
+        background-image: url(/public/Nimages/backgroundstars.png); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    @keyframes floatImg{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-14px);
+        }
+        100%{
+            transform: translateY(0);
+        }
+    }
+    
+    
+      
+    

@@ -16,3 +16,9 @@ app.get("/planetsinfo",(req,res)=>{
 app.get("/earth",(req,res)=>{
         res.render("knowmoreEarth.ejs");
 })
+app.get("/constellations",(req,res)=>{
+    res.render("Nihira2.ejs")
+})
+app.use((req,res)=>{
+    res.send("Route not found");
+})
